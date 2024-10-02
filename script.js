@@ -15,7 +15,7 @@ let anchorTag = document.querySelectorAll(".link");
 
 setTimeout(() => {
     document.querySelector(".preload").classList.add("hidden");
-}, 4000);
+}, 3000);
 
 
 // this is function to control About page button 
@@ -204,11 +204,11 @@ let TypeScipt = document.querySelector(".TypeScipt");
 
 portfolioWebsite.addEventListener("click", () => {
     websiteName.innerText = "Portfolio website";
-    clientName.innerText = "Skill Code"
+    clientName.innerText = "Self"
     languages.innerText = "html,css,javascript";
     preview.innerText = "Portfolio";
     preview.addEventListener("click", () => {
-        open("https://github.com/bhautikpatel21/Portfolio.git");
+        open("https://github.com/mahendraoo7/Portfolio");
     });
     ProjectImage.src = "./assets/img1.png";
 
@@ -219,9 +219,9 @@ iceCreamWebsite.addEventListener("click", () => {
     websiteName.innerText = "Ice-cream Website";
     clientName.innerText = "Skill Code"
     languages.innerText = "react js";
-    preview.innerText = "jummy ice-cream";
+    preview.innerText = "jummy Ice";
     preview.addEventListener("click", () => {
-        open("https://github.com/bhautikpatel21/Jumys-ice-cream-web");
+        open("https://github.com/mahendraoo7/JumysIceCream");
     });
     ProjectImage.src = "./assets/img2.png";
 
@@ -234,49 +234,9 @@ megaOneWebsite.addEventListener("click", () => {
     languages.innerText = "html,css";
     preview.innerText = "megaOne page";
     preview.addEventListener("click", () => {
-        open("https://github.com/bhautikpatel21/CSS/tree/main/web");
+        open("https://mahendraweb.netlify.app/");
     });
     ProjectImage.src = "./assets/img3.png";
-
-    description.classList.remove("hidden");
-    description.classList.add("flex");
-})
-furnitureapp.addEventListener("click", () => {
-    websiteName.innerText = "Furniture app";
-    clientName.innerText = "Skill Code"
-    languages.innerText = "node js";
-    preview.innerText = "furniture-app";
-    preview.addEventListener("click", () => {
-        open("https://github.com/bhautikpatel21/Furniture_app_js");
-    });
-    ProjectImage.src = "./assets/img4.png";
-
-    description.classList.remove("hidden");
-    description.classList.add("flex");
-})
-Calculater.addEventListener("click", () => {
-    websiteName.innerText = "Calculater";
-    clientName.innerText = "Skill Code"
-    languages.innerText = "html,css,js";
-    preview.innerText = "Calculater";
-    preview.addEventListener("click", () => {
-        open("https://github.com/bhautikpatel21/Javascript");
-    });
-    ProjectImage.src = "./assets/img6.png";
-
-    description.classList.remove("hidden");
-    description.classList.add("flex");
-})
-
-TypeScipt.addEventListener("click", () => {
-    websiteName.innerText = "Furniture app";
-    clientName.innerText = "Skill Code"
-    languages.innerText = "Typescript";
-    preview.innerText = "Furniture-app Typrscript";
-    preview.addEventListener("click", () => {
-        open("https://github.com/bhautikpatel21/Furniture_app_ts");
-    });
-    ProjectImage.src = "./assets/img-5.png  ";
 
     description.classList.remove("hidden");
     description.classList.add("flex");
@@ -450,3 +410,6 @@ document.querySelector(".blog-card-6").addEventListener("click", () => {
         animationSlides.classList.add("hidden");
     }, 2300);
 });
+
+
+
