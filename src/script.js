@@ -221,7 +221,7 @@ iceCreamWebsite.addEventListener("click", () => {
     languages.innerText = "react js";
     preview.innerText = "jummy Ice";
     preview.addEventListener("click", () => {
-        open("https://github.com/mahendraoo7/JumysIceCream");
+        open("https://jumysicecream.netlify.app/");
     });
     ProjectImage.src = "./assets/img2.png";
 
@@ -234,7 +234,7 @@ megaOneWebsite.addEventListener("click", () => {
     languages.innerText = "html,css";
     preview.innerText = "megaOne page";
     preview.addEventListener("click", () => {
-        open("https://mahendraweb.netlify.app/");
+        open("https://github.com/mahendraoo7/MegaOne_html/");
     });
     ProjectImage.src = "./assets/img3.png";
 
