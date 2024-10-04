@@ -210,7 +210,7 @@ portfolioWebsite.addEventListener("click", () => {
     preview.addEventListener("click", () => {
         open("https://github.com/mahendraoo7/Portfolio");
     });
-    ProjectImage.src = "./assets/img1.png";
+    ProjectImage.src = "assets/Screenshot 2024-10-02 173137.png";
 
     description.classList.remove("hidden");
     description.classList.add("flex");
@@ -223,7 +223,7 @@ iceCreamWebsite.addEventListener("click", () => {
     preview.addEventListener("click", () => {
         open("https://jumysicecream.netlify.app/");
     });
-    ProjectImage.src = "./assets/img2.png";
+    ProjectImage.src = "./assets/Screenshot 2024-10-02 182905.png";
 
     description.classList.remove("hidden");
     description.classList.add("flex");
@@ -236,7 +236,7 @@ megaOneWebsite.addEventListener("click", () => {
     preview.addEventListener("click", () => {
         open("https://github.com/mahendraoo7/MegaOne_html/");
     });
-    ProjectImage.src = "./assets/img3.png";
+    ProjectImage.src = "./assets/Screenshot 2024-10-02 183224.png";
 
     description.classList.remove("hidden");
     description.classList.add("flex");
