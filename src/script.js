@@ -202,45 +202,54 @@ let Calculater = document.querySelector(".Calculater");
 let TypeScipt = document.querySelector(".TypeScipt");
 
 
+// Function to handle the click event for the preview button
+const handlePreviewClick = (url) => {
+    open(url);
+};
+
+// Event listeners for each website project
 portfolioWebsite.addEventListener("click", () => {
     websiteName.innerText = "Portfolio website";
-    clientName.innerText = "Self"
-    languages.innerText = "html,css,javascript";
+    clientName.innerText = "Self";
+    languages.innerText = "html, css, javascript";
     preview.innerText = "Portfolio";
-    preview.addEventListener("click", () => {
-        open("https://github.com/mahendraoo7/Portfolio");
-    });
-    ProjectImage.src = "assets/Screenshot 2024-10-02 173137.png";
+    ProjectImage.src = "./assets/Screenshot 2024-10-02 173137.png";
+
+    // Set the preview link and add the click event
+    preview.onclick = () => handlePreviewClick("https://github.com/mahendraoo7/Portfolio");
 
     description.classList.remove("hidden");
     description.classList.add("flex");
-})
+});
+
 iceCreamWebsite.addEventListener("click", () => {
     websiteName.innerText = "Ice-cream Website";
-    clientName.innerText = "Skill Code"
+    clientName.innerText = "Skill Code";
     languages.innerText = "react js";
     preview.innerText = "jummy Ice";
-    preview.addEventListener("click", () => {
-        open("https://jumysicecream.netlify.app/");
-    });
     ProjectImage.src = "./assets/Screenshot 2024-10-02 182905.png";
 
-    description.classList.remove("hidden");
-    description.classList.add("flex");
-})
-megaOneWebsite.addEventListener("click", () => {
-    websiteName.innerText = "Mega One Website";
-    clientName.innerText = "Skill Code"
-    languages.innerText = "html,css";
-    preview.innerText = "megaOne page";
-    preview.addEventListener("click", () => {
-        open("https://github.com/mahendraoo7/MegaOne_html/");
-    });
-    ProjectImage.src = "./assets/Screenshot 2024-10-02 183224.png";
+    // Set the preview link and add the click event
+    preview.onclick = () => handlePreviewClick("https://jumysicecream.netlify.app/");
 
     description.classList.remove("hidden");
     description.classList.add("flex");
-})
+});
+
+megaOneWebsite.addEventListener("click", () => {
+    websiteName.innerText = "Mega One Website";
+    clientName.innerText = "Skill Code";
+    languages.innerText = "html, css";
+    preview.innerText = "megaOne page"; 
+    ProjectImage.src = "./assets/Screenshot 2024-10-02 183224.png";
+
+    // Set the preview link and add the click event
+    preview.onclick = () => handlePreviewClick("https://github.com/mahendraoo7/MegaOne_html/");
+
+    description.classList.remove("hidden");
+    description.classList.add("flex");
+});
+
 
 let MenuButton = document.getElementById("MenuButton");
 let MenuBar = document.getElementById("Menu");
