@@ -1,4 +1,3 @@
-
 let About = document.getElementById("ABOUT");
 let Home = document.getElementById("HOME");
 let heroImage = document.getElementById("hero-image");
@@ -12,7 +11,6 @@ let Contact = document.getElementById("CONTACT");
 let Blog = document.getElementById("BLOG")
 let anchorTag = document.querySelectorAll(".link");
 
-
 setTimeout(() => {
     document.querySelector(".preload").classList.add("hidden");
 }, 3000);
@@ -22,7 +20,7 @@ setTimeout(() => {
 document.querySelectorAll(".ABOUT-button").forEach((event) => {
     event.addEventListener("click", () => {
         if (currentPage == About) {
-            return 0;
+            return  0;
         }
         animationSlides.classList.remove("hidden");
         setTimeout(() => {
@@ -167,7 +165,7 @@ document.addEventListener("mousedown", (e) => {
     }
 });
 
-// //   this function is for mouseup effect 
+//   this function is for mouseup effect 
 document.addEventListener("mouseup", () => {
     cursorOutline.classList.remove("cursor-mousedown");
 });
@@ -195,7 +193,7 @@ let ProjectImage = document.getElementById("Project-Image");
 
 
 let portfolioWebsite = document.querySelector(".Portfolio-website");
-let iceCreamWebsite = document.querySelector(".ice-cream");
+let iceCreamWebsite = document.querySelector(".ice-cream ");
 let megaOneWebsite = document.querySelector(".megaOne-website");
 let furnitureapp = document.querySelector(".Furniture-app");
 let Calculater = document.querySelector(".Calculater");
@@ -205,7 +203,7 @@ let TypeScipt = document.querySelector(".TypeScipt");
 // Function to handle the click event for the preview button
 const handlePreviewClick = (url) => {
     open(url);
-};
+}
 
 // Event listeners for each website project
 portfolioWebsite.addEventListener("click", () => {
@@ -337,7 +335,7 @@ document.querySelector(".blog-card-2").addEventListener("click", () => {
     animationSlides.classList.remove("hidden");
     document.querySelector(".Blog-Writer-name").innerText = "Stiffen";
     document.querySelector(".Blog-date").innerText = "25 May 2020";
-    document.querySelector(".Blog-text").innerText = "Programming,reading,nature";
+    document.querySelector(".Blog-text").innerText = "Programming, reading,nature";
     document.querySelector(".blog-image").src = "./assets/blog-post-2.jpg";
     document.querySelector(".blog-tittle").innerText = "Top 10 Tool-kits For Deep Learning In 2020";
 
@@ -419,6 +417,3 @@ document.querySelector(".blog-card-6").addEventListener("click", () => {
         animationSlides.classList.add("hidden");
     }, 2300);
 });
-
-
-
